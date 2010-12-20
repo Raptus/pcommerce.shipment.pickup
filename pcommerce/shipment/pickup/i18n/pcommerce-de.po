@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pcommerce.shipment.pickup\n"
+"POT-Creation-Date: 2010-12-15 16:38+0000\n"
+"PO-Revision-Date: 2010-12-15 16:40+0000\n"
+"Last-Translator: Simon Kaeser <skaeser@raptus.com>\n"
+"Language-Team: Deutsch <skaeser@raptus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-code: de\n"
+"Language-name: Deutsch\n"
+"Preferred-encodings: utf-8 latin1\n"
+"Domain: pcommerce\n"
+"X-is-fallback-for: de-ch de-de de-at de-li de-lu\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Default: "Goods are picked up by the customer"
+#: ./browser/confirmation.pt:8
+msgid "Goods are picked up by the customer"
+msgstr "Die Waren werden durch den Kunden abgeholt"
+
+#: ./plugin.py:12
+msgid "Pickup"
+msgstr "Abholung"
+

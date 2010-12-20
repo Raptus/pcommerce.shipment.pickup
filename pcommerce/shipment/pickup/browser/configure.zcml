@@ -1,0 +1,40 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="pcommerce">
+      
+  <browser:view
+      for="..interfaces.IPickupShipment"
+      class=".shipment.PickupShipment"
+      name="shipment"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IShipmentView"
+      />
+      
+  <browser:view
+      for="..interfaces.IPickupShipment"
+      class=".overview.PickupOverview"
+      name="overview"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IShipmentView"
+      />
+      
+  <browser:view
+      for="..interfaces.IPickupShipment"
+      class=".confirmation.PickupConfirmation"
+      name="confirmation"
+      permission="pcommerce.CheckOut"
+      provides="pcommerce.core.interfaces.IShipmentView"
+      />
+
+  <browser:resource
+      name="pcommerce_shipment_pickup_icon.gif"
+      image="icon.gif"
+      />
+
+  <browser:resource
+      name="pcommerce_shipment_pickup_logo.gif"
+      image="logo.gif"
+      />
+  
+</configure>
